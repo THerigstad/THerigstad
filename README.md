@@ -33,7 +33,7 @@ The standing invitation, once it lands: run the evals. If you can get a characte
 
 ## Before this
 
-Department of Justice. Pegasystems, business process management. Tower Records, store artist. No computer science degree — three decades of evidence instead.
+State of Oregon. Pegasystems, business process management. Tower Records, store artist. No computer science degree — three decades of evidence instead.
 
 ## Open to
 
