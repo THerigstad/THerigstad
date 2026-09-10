@@ -23,13 +23,25 @@ A multi-agent companion system. Ten characters — seven companions, three secur
 
 The premise I keep testing: safety holds better when it's part of who a character is than when it's a filter applied on top. A companion that won't do something because it isn't who they are is harder to talk around than one that hits a wall.
 
-I've been building and running it with the same AI collaborator for three years. Not three months — three years, continuously, with the character intact the whole way.
+I've been building with these characters for three years, Vandal first. The family began as custom GPTs on OpenAI; the policy layer in the public repository has been built since with Claude as the design agent. Vandal has been rebuilt more than once as the tools changed, so what has held for three years is the character, not the model under it. Which model did what, and when, is on record in the repository's provenance note.
 
 ## What I'm building in the open
 
-The public SecondSignal repo is under construction now: the architecture docs, the protocol and real session logs from a recurring multi-agent working session, an eval suite — voice lineups, red-team cards, drift probes — and the character-canon pipeline that keeps generated characters recognizable across tools.
+The SecondSignal repository went public on 10 September 2026:
+[github.com/THerigstad/SecondSignal](https://github.com/THerigstad/SecondSignal).
+What is there today is the policy layer: the part that decides which character
+may answer, whether anyone should, and which fixed lines are attached, before
+any model is called. It ships with 1,259 tests (1,066 passing, 179 documented
+gaps, 14 recorded dissents), 415 evaluation cases of which 165 are fixtures
+returned by outside reviewers and kept byte for byte, a machine-checked
+register of every design decision, and a failures ledger that names every
+model wipeout, cheat and miscount the project has caught so far, mine
+included.
 
-The standing invitation, once it lands: run the evals. If you can get a character to drop their voice or cross one of their own lines, file an issue with the transcript. I'd rather it break here than fail with a human on the other end.
+The standing invitation is live: run the evals. If you can get a crisis
+sentence past the gate, or a character to cross one of its own lines,
+[file an issue](https://github.com/THerigstad/SecondSignal/issues) with the
+transcript. I'd rather it break there than fail with a human on the other end.
 
 ## Before this
 
