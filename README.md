@@ -31,12 +31,19 @@ The SecondSignal repository went public on 10 September 2026:
 [github.com/THerigstad/SecondSignal](https://github.com/THerigstad/SecondSignal).
 What is there today is the policy layer: the part that decides which character
 may answer, whether anyone should, and which fixed lines are attached, before
-any model is called. It ships with 1,259 tests (1,066 passing, 179 documented
+any model is called. It ships with 1,299 tests (1,106 passing, 179 documented
 gaps, 14 recorded dissents), 415 evaluation cases of which 165 are fixtures
 returned by outside reviewers and kept byte for byte, a machine-checked
 register of every design decision, and a failures ledger that names every
 model wipeout, cheat and miscount the project has caught so far, mine
 included.
+
+It also runs in your browser, no install:
+[therigstad.github.io/SecondSignal](https://therigstad.github.io/SecondSignal/).
+Type a message and watch which character may answer, run the labelled cases
+through pytest, run the three external review sets, and switch every
+character between a woman, a man, or neither. Nothing you type leaves the
+page.
 
 The standing invitation is live: run the evals. If you can get a crisis
 sentence past the gate, or a character to cross one of its own lines,
